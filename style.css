@@ -1,0 +1,23 @@
+.getvalue {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid gray;
+    /* background-color: lightcyan; */
+}
+
+.inputvalue {
+    width: 492px;
+    height: 30px;
+}
+
+.btninner {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 110px;
+    margin: 6px;    
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 15px;
+}

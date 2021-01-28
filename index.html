@@ -3,11 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning javaScript</title>
-    <script src="app.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    
+<div class="main">
+
+    <div class="getvalue">
+
+        <div class="getnum">
+            <input id="result" class="inputvalue" disabled type="text" name="">
+        </div>
+
+        <div>
+            <button onclick="getValue(1)" class="btninner">1</button>
+            <button onclick="getValue(2)" class="btninner">2</button>
+            <button onclick="getValue(3)" class="btninner">3</button>
+            <button onclick="getValue('+')" class="btninner">+</button>
+        </div>
+
+        <div>
+            <button onclick="getValue(4)" class="btninner">4</button>
+            <button onclick="getValue(5)" class="btninner">5</button>
+            <button onclick="getValue(6)" class="btninner">6</button>
+            <button onclick="getValue('-')" class="btninner">-</button>
+        </div>
+
+
+        <div>
+            <button onclick="getValue(7)" class="btninner">7</button>
+            <button onclick="getValue(8)" class="btninner">8</button>
+            <button onclick="getValue(9)" class="btninner">9</button>
+            <button onclick="getValue('*')" class="btninner">x</button>
+        </div>
+
+
+        <div>
+            <button onclick="getValue(0)" class="btninner">0</button>
+            <button onclick="getnum()" class="btninner">=</button>
+            <button onclick="clearValue()" class="btninner">C</button>
+            <button onclick="getValue('/')" class="btninner">/</button>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
 </body>
 </html>
